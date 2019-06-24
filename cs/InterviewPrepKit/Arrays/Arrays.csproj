@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array2D.cs" />
+    <Compile Include="LeftRotation.cs" />
+    <Compile Include="MinimumSwaps2.cs" />
+    <Compile Include="NewYearChaos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
