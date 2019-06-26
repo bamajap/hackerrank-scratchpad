@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace Arrays
+namespace HackerRank.InterviewPrepKit.Arrays
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
     /// </summary>
-    internal static class LeftRotation
+    public static class LeftRotation
     {
-        internal static void Run()
+        public static void Run()
         {
             Console.WriteLine(string.Join(", ", rotLeft(new[] {1, 2, 3, 4, 5}, 2)));
             Console.WriteLine(string.Join(", ", rotLeft(new[] {1, 2, 3, 4, 5}, 4)));

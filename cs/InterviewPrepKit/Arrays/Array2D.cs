@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-namespace Arrays
+namespace HackerRank.InterviewPrepKit.Arrays
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/2d-array/problem
     /// </summary>
-    internal static class Array2D
+    public static class Array2D
     {
-        internal static void Run()
+        public static void Run()
         {
             var tests = new List<int[][]>
             {

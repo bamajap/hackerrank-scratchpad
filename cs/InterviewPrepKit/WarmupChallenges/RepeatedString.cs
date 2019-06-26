@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace WarmupChallenges
+namespace HackerRank.InterviewPrepKit.WarmupChallenges
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/repeated-string/problem
     /// </summary>
-    internal static class RepeatedString
+    public static class RepeatedString
     {
-        internal static void Run()
+        public static void Run()
         {
             string s = Console.ReadLine();
 

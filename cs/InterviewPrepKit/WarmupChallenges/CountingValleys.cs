@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace WarmupChallenges
+namespace HackerRank.InterviewPrepKit.WarmupChallenges
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/counting-valleys/problem
     /// </summary>
-    internal static class CountingValleys
+    public static class CountingValleys
     {
-        internal static void Run()
+        public static void Run()
         {
             //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 

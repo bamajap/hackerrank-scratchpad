@@ -1,13 +1,13 @@
 using System;
 
-namespace Arrays
+namespace HackerRank.InterviewPrepKit.Arrays
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/minimum-swaps-2/problem
     /// </summary>
-    internal static class MinimumSwaps2
+    public static class MinimumSwaps2
     {
-        internal static void Run()
+        public static void Run()
         {
             int n = Convert.ToInt32(Console.ReadLine());
 

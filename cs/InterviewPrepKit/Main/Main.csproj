@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CB8D367-9039-46A5-A800-29DBCD6D3D29}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{F52BC783-7B1C-40E5-9EBA-5EA0C8BD20BD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HackerRank.InterviewPrepKit.Sorting</RootNamespace>
-    <AssemblyName>HackerRank.InterviewPrepKit.Sorting</AssemblyName>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,21 +31,34 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CtciBubbleSort.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Arrays\Arrays.csproj">
+      <Project>{61faeba9-a9ff-40f9-b5b6-08b51a7564a6}</Project>
+      <Name>Arrays</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj">
+      <Project>{83a22f84-ccbd-48c6-a6c5-8b4a4cd606a0}</Project>
+      <Name>DynamicProgramming</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sorting\Sorting.csproj">
+      <Project>{3cb8d367-9039-46a5-a800-29dbcd6d3d29}</Project>
+      <Name>Sorting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WarmupChallenges\WarmupChallenges.csproj">
+      <Project>{dbad09bc-77cf-498f-ba8f-9082ff199cdc}</Project>
+      <Name>WarmupChallenges</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

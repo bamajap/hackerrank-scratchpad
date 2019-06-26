@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Arrays
+namespace HackerRank.InterviewPrepKit.Arrays
 {
-    internal static class NewYearChaos
+    public static class NewYearChaos
     {
-        internal static void Run()
+        public static void Run()
         {
             int t = Convert.ToInt32(Console.ReadLine());
 

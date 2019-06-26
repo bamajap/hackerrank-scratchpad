@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DynamicProgramming
+namespace HackerRank.InterviewPrepKit.DynamicProgramming
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/max-array-sum/problem
     /// </summary>
-    internal static class MaxArraySum
+    public static class MaxArraySum
     {
-        internal static void Run()
+        public static void Run()
         {
             int n = Convert.ToInt32(Console.ReadLine());
 

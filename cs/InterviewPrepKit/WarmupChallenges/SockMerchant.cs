@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace WarmupChallenges
+namespace HackerRank.InterviewPrepKit.WarmupChallenges
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/sock-merchant/problem
     /// </summary>
-    internal static class SockMerchant
+    public static class SockMerchant
     {
-        internal static void Run()
+        public static void Run()
         {
             int n = Convert.ToInt32(Console.ReadLine());
 

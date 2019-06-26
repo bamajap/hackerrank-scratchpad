@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace Sorting
+namespace HackerRank.InterviewPrepKit.Sorting
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
     /// </summary>
-    internal static class CtciBubbleSort
+    public static class CtciBubbleSort
     {
-        internal static void Run()
+        public static void Run()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] a_temp = Console.ReadLine().Split(' ');

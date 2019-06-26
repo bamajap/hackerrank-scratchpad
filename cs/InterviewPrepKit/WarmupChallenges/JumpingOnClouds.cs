@@ -1,13 +1,13 @@
 using System;
 
-namespace WarmupChallenges
+namespace HackerRank.InterviewPrepKit.WarmupChallenges
 {
     /// <summary>
     /// https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
     /// </summary>
-    internal static class JumpingOnClouds
+    public static class JumpingOnClouds
     {
-        internal static void Run()
+        public static void Run()
         {
             //int n = Convert.ToInt32(Console.ReadLine());
 
