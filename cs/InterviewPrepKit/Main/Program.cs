@@ -41,6 +41,7 @@ namespace Main
             //LeftRotation.Run();
             //MinimumSwaps2.Run();
             //NewYearChaos.Run();
+            ArrayManipulation.Run();
 
             #endregion Arrays
 

@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array2D.cs" />
+    <Compile Include="ArrayManipulation.cs" />
     <Compile Include="LeftRotation.cs" />
     <Compile Include="MinimumSwaps2.cs" />
     <Compile Include="NewYearChaos.cs" />
